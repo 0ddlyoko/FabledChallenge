@@ -1,0 +1,160 @@
+challenges:
+  '1':
+    # The id of the category
+    id: 1
+    # The name of the category
+    name: '&cDébutants'
+    # All challenges
+    challenges:
+      '1':
+        # The id of the challenge
+        id: 1
+        # The name of the challenge
+        name: '&2TheName'
+        # The requirement
+        # ITEM:<item> <count> ==> the player needs <count> <item>
+        # LEVEL:<level> ==> the player's island needs to be at least <level> level
+        # NEAR:<EntityType> <amount> ==> <amount> of <EntityType> must be next to the player
+        # POTION:<PotionType> <data> <amount>
+        # data must be: 0 = normal potion, 1 = extended, 2 = ++, 3 = splash, 4 = splash extended, 5 = splash ++, 6 = lingering, 7 = lingering extended, 8 = lingering ++
+        require:
+        # Exemples:
+        # Player should have 2 stacks of cobblestone in his inventory
+        - 'ITEM:cobblestone 128'
+        # 5 players must be next to the player
+        - 'NEAR:PLAYER 5'
+        # A zombie must be next to the player
+        - 'NEAR:ZOMBIE 1'
+        # Player should have a potion of REGEN
+        - 'POTION:REGEN 0 1'
+        # The reward
+        # ITEM:<item> <count> means the player will have <count> <item> when the challenge is done
+        # CMD:<cmd> means a command will be executed by the console when the challenge is done
+        reward:
+        - 'CMD:eco give {player} 100'
+        - 'ITEM:iron_ingot 20'
+        - 'ITEM:name_tag 1'
+        # The maximum amount of time this challenge is repeatable
+        maxtimes: 1
+        # If true, broadcast a message when this challenge is completed
+        showInChat: true
+        item:
+          show: true
+          # The position in inventory
+          row: 1
+          col: 1
+          # The item
+          item: CLOCK
+          # The amount of this item
+          amount: 1
+          # The lore of this item
+          lore:
+          - '&c&lPour ce challenge, il te faudra:'
+          - '&e- 32 blocs de redstone'
+          - '&e- 16 comparateurs'
+          - '&e- 32 repeteurs'
+          - '&e- 16 blocs d''observateur'
+          - '&c&lEt tu gagneras :'
+          - '&e- 1000 francs'
+          - '&e- 24 blocs d''émeraude'
+          - '&e- 48 blocs de redstone'
+      '2':
+        id: 2
+        name: '&2Bûcheron'
+        require:
+        - 'ITEM:oak_log 32'
+        - 'ITEM:spruce_log 32'
+        - 'ITEM:birch_log 32'
+        - 'ITEM:jungle_log 32'
+        - 'ITEM:acacia_log 32'
+        - 'ITEM:dark_oak_log 32'
+        reward:
+        - 'CMD:eco give {player} 200'
+        - 'ITEM:iron_ingot 24'
+        - 'ITEM:leather 32'
+        maxtimes: 1
+        showInChat: true
+      '3':
+        id: 3
+        name: '&2Ça pique'
+        require:
+        - 'ITEM:cactus_green 48'
+        reward:
+        - 'CMD:eco give {player} 200'
+        - 'ITEM:sand 24'
+        maxtimes: 1
+        showInChat: true
+      '4':
+        id: 4
+        name: '&2Boulanger'
+        require:
+        - 'ITEM:bread 32'
+        reward:
+        - 'CMD:eco give {player} 200'
+        - 'ITEM:oak_sapling 2'
+        - 'ITEM:spruce_sapling 2'
+        - 'ITEM:birch_sapling 2'
+        - 'ITEM:jungle_sapling 2'
+        - 'ITEM:acacia_sapling 2'
+        - 'ITEM:dark_oak_sapling 2'
+        maxtimes: 1
+        showInChat: true
+      '5':
+        id: 5
+        name: '&2Souffleur'
+        require:
+        - 'ITEM:glass 24'
+        reward:
+        - 'CMD:eco give {player} 200'
+        - 'ITEM:mycelium 10'
+        maxtimes: 1
+        showInChat: true
+      '6':
+        id: 6
+        name: '&2Ecrivain'
+        require:
+        - 'ITEM:paper 64'
+        reward:
+        - 'CMD:eco give {player} 100'
+        - 'ITEM:dirt 15'
+        - 'ITEM:clay 15'
+        maxtimes: 1
+        showInChat: true
+      '7':
+        id: 7
+        name: '&2Pommier'
+        require:
+        - 'ITEM:apple 16'
+        reward:
+        - 'CMD:eco give {player} 100'
+        - 'ITEM:dirt 15'
+        - 'ITEM:grass_block 3'
+        maxtimes: 1
+        showInChat: true
+      '8':
+        id: 8
+        name: '&2Amasseur'
+        require:
+        - 'ITEM:pumpkin_seeds 24'
+        - 'ITEM:melon_seeds 24'
+        - 'ITEM:wheat_seeds 24'
+        reward:
+        - 'CMD:eco give {player} 150'
+        - 'ITEM:dirt 15'
+        - 'ITEM:grass_block 3'
+        maxtimes: 1
+        showInChat: true
+      '9':
+        id: 9
+        name: '&2Ile level 250'
+        require:
+        - 'LEVEL:250'
+        reward:
+        - 'CMD:eco give {player} 1000'
+        - 'ITEM:diamond_block 4'
+        - 'ITEM:sponge 1'
+        maxtimes: 1
+        showInChat: true
+  '2':
+    id: 2
+    name: '&cSurvivants'

@@ -1,0 +1,310 @@
+chatMessage: "{prefix}&6{player} &7has completed challenge {challenge} ({amount} / {max})"
+# The title shown when a player hasn't completed a challenge or has not fully completed challenge
+itemLorePlayer: "&e{amount} &6/ &e{max}"
+
+inventory:
+    # The number of rows of inventory (Between 1 and 6)
+  size: 4
+  items:
+    1:
+      # The position in inventory
+      row: 1
+      col: 1
+      # The item
+      item: BLACK_STAINED_GLASS_PANE
+      # The amount of the item
+      amount: 1
+      # The name of the item
+      name: ''
+      # The lore of the item
+      lore:
+      - ''
+      # Redirect to specific category when a player clicks on this item
+      # Remove it or set to 0 to disable redirection on specific item
+      redirect: 0
+    2:
+      row: 1
+      col: 2
+      item: RED_STAINED_GLASS_PANE
+      amount: 1
+      name: ''
+      lore:
+      - ''
+    3:
+      row: 1
+      col: 3
+      item: BLACK_STAINED_GLASS_PANE
+      amount: 1
+      name: ''
+      lore:
+      - ''
+    4:
+      row: 1
+      col: 4
+      item: BLACK_STAINED_GLASS_PANE
+      amount: 1
+      name: ''
+      lore:
+      - ''
+    5:
+      row: 1
+      col: 5
+      item: BLACK_STAINED_GLASS_PANE
+      amount: 1
+      name: ''
+      lore:
+      - ''
+    6:
+      row: 1
+      col: 6
+      item: BLACK_STAINED_GLASS_PANE
+      amount: 1
+      name: ''
+      lore:
+      - ''
+    7:
+      row: 1
+      col: 7
+      item: BLACK_STAINED_GLASS_PANE
+      amount: 1
+      name: ''
+      lore:
+      - ''
+    8:
+      row: 1
+      col: 8
+      item: RED_STAINED_GLASS_PANE
+      amount: 1
+      name: ''
+      lore:
+      - ''
+    9:
+      row: 1
+      col: 9
+      item: BLACK_STAINED_GLASS_PANE
+      amount: 1
+      name: ''
+      lore:
+      - ''
+    10:
+      row: 2
+      col: 1
+      item: BLACK_STAINED_GLASS_PANE
+      amount: 1
+      name: ''
+      lore:
+      - ''
+    11:
+      row: 2
+      col: 2
+      item: BLACK_STAINED_GLASS_PANE
+      amount: 1
+      name: ''
+      lore:
+      - ''
+    12:
+      row: 2
+      col: 3
+      item: RED_STAINED_GLASS_PANE
+      amount: 1
+      name: ''
+      lore:
+      - ''
+    13:
+      row: 2
+      col: 4
+      item: BLACK_STAINED_GLASS_PANE
+      amount: 1
+      name: ''
+      lore:
+      - ''
+    14:
+      row: 2
+      col: 5
+      item: BLACK_STAINED_GLASS_PANE
+      amount: 1
+      name: ''
+      lore:
+      - ''
+    15:
+      row: 2
+      col: 6
+      item: BLACK_STAINED_GLASS_PANE
+      amount: 1
+      name: ''
+      lore:
+      - ''
+    16:
+      row: 2
+      col: 7
+      item: RED_STAINED_GLASS_PANE
+      amount: 1
+      name: ''
+      lore:
+      - ''
+    17:
+      row: 2
+      col: 8
+      item: BLACK_STAINED_GLASS_PANE
+      amount: 1
+      name: ''
+      lore:
+      - ''
+    18:
+      row: 2
+      col: 9
+      item: BLACK_STAINED_GLASS_PANE
+      amount: 1
+      name: ''
+      lore:
+      - ''
+    19:
+      row: 3
+      col: 1
+      item: BLACK_STAINED_GLASS_PANE
+      amount: 1
+      name: ''
+      lore:
+      - ''
+    20:
+      row: 3
+      col: 2
+      item: BLACK_STAINED_GLASS_PANE
+      amount: 1
+      name: ''
+      lore:
+      - ''
+    21:
+      row: 3
+      col: 3
+      item: BLACK_STAINED_GLASS_PANE
+      amount: 1
+      name: ''
+      lore:
+      - ''
+    22:
+      row: 3
+      col: 4
+      item: RED_STAINED_GLASS_PANE
+      amount: 1
+      name: ''
+      lore:
+      - ''
+    23:
+      row: 3
+      col: 5
+      item: BLACK_STAINED_GLASS_PANE
+      amount: 1
+      name: ''
+      lore:
+      - ''
+    24:
+      row: 3
+      col: 6
+      item: RED_STAINED_GLASS_PANE
+      amount: 1
+      name: ''
+      lore:
+      - ''
+    25:
+      row: 3
+      col: 7
+      item: BLACK_STAINED_GLASS_PANE
+      amount: 1
+      name: ''
+      lore:
+      - ''
+    26:
+      row: 3
+      col: 8
+      item: BLACK_STAINED_GLASS_PANE
+      amount: 1
+      name: ''
+      lore:
+      - ''
+    27:
+      row: 3
+      col: 9
+      item: BLACK_STAINED_GLASS_PANE
+      amount: 1
+      name: ''
+      lore:
+      - ''
+    28:
+      row: 4
+      col: 1
+      item: BLACK_STAINED_GLASS_PANE
+      amount: 1
+      name: ''
+      lore:
+      - ''
+    29:
+      row: 4
+      col: 2
+      item: EXPERIENCE_BOTTLE
+      amount: 1
+      name: '&2Challenges Débutants'
+      lore:
+      - '&c&l&nChallenges Débutants'
+      redirect: 1
+    30:
+      row: 4
+      col: 3
+      item: EXPERIENCE_BOTTLE
+      amount: 1
+      name: '&2Challenges Survivants'
+      lore:
+      - '&c&l&nChallenges Survivants'
+      redirect: 2
+    31:
+      row: 4
+      col: 4
+      item: EXPERIENCE_BOTTLE
+      amount: 1
+      name: '&2Challenges Champions'
+      lore:
+      - '&c&l&nChallenges Champions'
+      redirect: 3
+    32:
+      row: 4
+      col: 5
+      item: RED_STAINED_GLASS_PANE
+      amount: 1
+      name: ''
+      lore:
+      - ''
+    33:
+      row: 4
+      col: 6
+      item: EXPERIENCE_BOTTLE
+      amount: 1
+      name: '&2Challenges Sorciers'
+      lore:
+      - '&c&l&nChallenges Sorciers'
+      redirect: 4
+    34:
+      row: 4
+      col: 7
+      item: EXPERIENCE_BOTTLE
+      amount: 1
+      name: '&2Challenges Alchimistes'
+      lore:
+      - '&c&l&nChallenges Alchimistes'
+      redirect: 5
+    35:
+      row: 4
+      col: 8
+      item: EXPERIENCE_BOTTLE
+      amount: 1
+      name: '&2Challenges Buildeurs'
+      lore:
+      - '&c&l&nChallenges Buildeurs'
+      redirect: 6
+    36:
+      row: 4
+      col: 9
+      item: BLACK_STAINED_GLASS_PANE
+      amount: 1
+      name: ''
+      lore:
+      - ''

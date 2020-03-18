@@ -1,0 +1,10 @@
+name: FabledChallenge
+main: me.oddlyoko.fabledchallenge.FabledChallenge
+version: 1.0
+author: 0ddlyoko
+depend: [FabledSkyBlock]
+api-version: 1.13
+commands:
+  fabledchallenge:
+    description: Challenges
+    aliases: [fc, c, challenge]
